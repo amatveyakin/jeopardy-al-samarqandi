@@ -1,0 +1,125 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{cmap}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{a4wide}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[colorlinks]{hyperref}
+
+% hyperref options
+\hypersetup{linkcolor = blue}    % Цвет текста ссылок на мишени внутри документа; по умолчанию --- red.
+\hypersetup{filecolor = cyan}    % Цвет текста ссылок на локальные PDF файлы; по умолчанию --- cyan.
+\hypersetup{citecolor = green}   % Цвет библиографических ссылок, которые печатает команда \cite; по умолчанию --- green.
+\hypersetup{urlcolor  = magenta} % Цвет текста URL-ссылок; по умолчанию --- magenta.
+\hypersetup{unicode   = true}
+
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\makeatletter
+
+\renewcommand{\@listI}{%
+\leftmargin=40pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=20pt
+\itemindent=0pt
+\listparindent=0pt
+\topsep=4pt plus 1pt minus 1pt
+\partopsep=0pt
+\parsep=0pt
+\itemsep=2pt plus 1pt minus 1pt}
+
+\renewcommand{\@listii}{%
+\leftmargin=25pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=20pt
+\itemindent=0pt
+\listparindent=0pt
+\topsep=1pt plus 1pt minus 1pt
+\partopsep=0pt
+\parsep=0pt
+\itemsep=1pt plus 1pt minus 1pt}
+
+\makeatother
+
+% % ``а) б) в) ...'' style instead of ``(a) (b) (c) ...'' for second-level lists
+% \renewcommand{\theenumii}{\asbuk{enumii}}
+% \renewcommand{\labelenumii}{\theenumii)}
+%
+% \newcounter{savedenumi}
+% \newcommand{\saveenumi}{\setcounter{savedenumi}{\value{enumi}}}
+% \newcommand{\loadenumi}{\setcounter{enumi}{\value{savedenumi}}}
+
+\newenvironment{topic}{\begin{enumerate}}{\end{enumerate}}
+\newcommand{\question}[3]{\item[#1.] #2 \par (Ответ: #3)}
+
+
+\begin{document}
+
+
+\section{-АВО- (unfinished)}
+
+\begin{topic}
+ \question{0--10}{}{авокадо}
+ \question{10--20}{Что-нибудь про <<В стране невыученных уроков>>}{травоядное}
+ \question{10--20}{}{наводнение}
+ \question{20--30}{в театре/в фонетическом алфавите}{браво}
+ \question{20--30}{}{Давос}
+ \question{40}{}{}
+ \question{50}{Нужна цитата. Возможные источники: \par
+  <<Гавриил Троепольский. Белый Бим Черное ухо>> \par
+  <<Иван Сергеевич Тургенев. Муму>> \par
+  <<Джек Лондон. Белый Клык>> \par}
+  {навострить уши}
+\end{topic}
+
+
+\section{Музыкальная тема <<тропы (и дороги (?))>> (unfinished)}
+
+\begin{topic}
+ \question{10}{Именно этот вопрос Трубадур задаёт сабжу.}{<<Куда ты, тропинка меня привела?>>}
+ \question{20--40}{Вопрос про трассу E-95. можно про то, что соединяет сегодняшная трасса E-95 или как теперь называется бывшая E-95. Правда, кажется, это всё "--- баян.}{}
+ \question{30--40}{}{<какой-нибудь троп (литературный)>}
+ \question{40}{}{}
+ \question{50}{}{}
+\end{topic}
+
+
+\section{Ошибка вышла}
+
+% Во время Второй Мировой войны британские бомбардировщики ежедневно отправлялись бомбить немцев. Большинство самолетов не возвращалось домой, а те, что возвращались, были покрыты следами от пуль немецких зенитных орудий и истребителей.
+% Желая увеличить вероятность возвращения экипажей домой, британские инженеры изучали расположение следов от пуль. Инженеры считали, что в тех местах, где больше всего попаданий, нужно дополнительно бронировать корпус самолета. Разумеется, была найдена закономерность: много следов располагалось на крыльях, хвосте и в районе хвостового пулемета. На кабине пилота и топливных баках следов было мало.
+% Логично заключить, что нужно добавить брони в тех местах, где больше всего следов. Но это неверно.
+% Самолеты с пулями в кабине пилота и топливных баках не смогли вернуться домой, а на вернувшихся самолетах следы от пуль были найдены как раз в достаточно укрепленных местах. Важная информация была у сбитых самолетов, а не у вернувшихся.
+
+% и другие исторические ляпы
+
+\begin{topic}
+ \question{10}{}{}
+ \question{20}{}{}
+ \question{30}{}{}
+ \question{40}{}{}
+ \question{50}{}{}
+\end{topic}
+
+
+\end{document}
+
+
+
+
+
+
+\section{#}
+
+\begin{topic}
+ \question{10}{}{}
+ \question{20}{}{}
+ \question{30}{}{}
+ \question{40}{}{}
+ \question{50}{}{}
+\end{topic}
